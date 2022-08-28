@@ -19,8 +19,11 @@ contactEmail.verify((error) => {
     }
 });
 
+router.get('/', function(req, res, next) {
+    res.send('endpoint was hit');
+});
 
-router.post("contact", (req, res) => {
+router.post("/", (req, res) => {
     const name = req.body.name;
     const email = req.body.email;
     const message = req.body.message; 
