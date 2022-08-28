@@ -20,7 +20,7 @@ contactEmail.verify((error) => {
 });
 
 
-router.post("https://www.sandydittorealestate.com/Contact", (req, res) => {
+router.post("contact", (req, res) => {
     const name = req.body.name;
     const email = req.body.email;
     const message = req.body.message; 
