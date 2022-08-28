@@ -19,9 +19,6 @@ contactEmail.verify((error) => {
     }
 });
 
-router.get('/', function(req, res, next) {
-    res.send('contact api');
-});
 
 router.post("/", (req, res) => {
     const name = req.body.name;
