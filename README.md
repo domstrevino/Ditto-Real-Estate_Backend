@@ -1,1 +1,1 @@
-# ditto_realestate_node
+# node.js server for ditto_realestate
