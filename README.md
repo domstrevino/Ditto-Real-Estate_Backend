@@ -1,1 +1,1 @@
-# node.js server for ditto_realestate
+# node.js server for Sandy Ditto Real Estate

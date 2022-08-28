@@ -1,2 +1,2 @@
 
-Copyright (C) 2022 dominick
+Copyright (C) 2022 Sandra Ditto
